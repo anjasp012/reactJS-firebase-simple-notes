@@ -1,0 +1,132 @@
+.container {
+    margin: 0px auto;
+    padding: 0px 280px;
+}
+
+.form .title {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border: solid thin;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    /* outline: none; */
+}
+
+.form .title:focus {
+    translate: 0px -2px;
+    outline: skyblue solid 2px;
+    border: gray solid thin;
+}
+
+.form .content {
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border: solid thin;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+
+.form .content:focus {
+    translate: 0px -2px;
+    outline: skyblue solid 2px;
+    border: gray solid thin;
+}
+
+.form .btn-display {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.form .btn-display.justify-end {
+    justify-content: end;
+}
+
+.form .btn-display.justify-between {
+    justify-content: space-between;
+}
+
+.form .btn {
+    text-transform: uppercase;
+}
+
+.form .btn:hover {
+    translate: 0px -2px;
+    cursor: pointer;
+    background: rgb(238, 238, 238);
+}
+
+.form .btn-oke {
+    transition: all ease 150ms;
+    background: greenyellow;
+    padding: 15px 40px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.form .btn-cancel {
+    transition: all ease 150ms;
+    background: pink;
+    padding: 10px 40px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.notes {
+    box-shadow: 31px 31px 15px -25px rgba(107, 107, 107, 0.42);
+    -webkit-box-shadow: 31px 31px 15px -25px rgba(107, 107, 107, 0.42);
+    -moz-box-shadow: 31px 31px 15px -25px rgba(107, 107, 107, 0.42);
+    background: rgb(252, 252, 252);
+    padding: 5px 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: solid gray 0.1px;
+    transition: all ease 100ms;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.notes:hover {
+    background: rgb(222, 244, 253);
+    box-shadow: none;
+    translate: 0px -2px;
+    cursor: pointer;
+}
+
+.notes .title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.notes .date {
+    font-size: 12px;
+    color: gray;
+    margin-top: -20px;
+}
+
+.notes .btn-delete {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: darkred;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 100%;
+    transition: all ease 150ms;
+}
+
+.notes .btn-delete:hover {
+    right: -5px;
+    top: -5px;
+    cursor: pointer;
+    color: white;
+    background: red;
+}

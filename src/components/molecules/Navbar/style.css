@@ -1,0 +1,11 @@
+.container-nav {
+    display: flex;
+    justify-content: center;
+    background: rgb(245, 245, 245);
+}
+
+.navbar {
+    padding: 5px 0px;
+    display: flex;
+    list-style: none;
+}
